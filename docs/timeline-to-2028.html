@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roadmap · Timeline to 2028</title>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Space+Grotesk:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --color-paper:   #0A0E12;
+      --color-ink:     #F2F5F7;
+      --color-muted:   #C7CED5;
+      --color-soft:    #9AA6B2;
+      --color-accent:  #1FBFD6;
+      --font-sans:     'Space Grotesk', system-ui, sans-serif;
+      --font-serif:    'Chakra Petch', system-ui, sans-serif;
+      --font-mono:     'JetBrains Mono', ui-monospace, monospace;
+    }
+
+    body {
+      font-family: var(--font-sans);
+      background: var(--color-paper);
+      color: var(--color-ink);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 3rem 2rem;
+    }
+
+    .frame { max-width: 1280px; width: 100%; }
+
+    .eyebrow {
+      font-family: var(--font-mono);
+      font-size: 0.66rem;
+      font-weight: 500;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--color-muted);
+      margin-bottom: 0.5rem;
+    }
+
+    h1 {
+      font-family: var(--font-serif);
+      font-size: clamp(1.5rem, 2.4vw + 0.75rem, 2rem);
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      line-height: 1.15;
+      color: var(--color-ink);
+      margin-bottom: 1.5rem;
+    }
+
+    svg { width: 100%; min-width: 1080px; display: block; }
+  </style>
+</head>
+<body>
+  <div class="frame">
+    <p class="eyebrow">Timeline · Roadmap</p>
+    <h1>From here to End of Line</h1>
+
+    <svg viewBox="0 0 1200 480" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+            <circle cx="1" cy="1" r="0.9" fill="rgba(242,245,247,0.10)"/>
+          </pattern>
+        </defs>
+
+        <rect width="100%" height="100%" fill="#0A0E12"/>
+        <rect width="100%" height="100%" fill="url(#dots)" opacity="0.5"/>
+
+        <!-- Year markers (background ghost text) -->
+        <text x="60" y="360" fill="rgba(242,245,247,0.05)" font-size="72" font-weight="700" font-family="'Chakra Petch', sans-serif">2026</text>
+        <text x="500" y="360" fill="rgba(242,245,247,0.05)" font-size="72" font-weight="700" font-family="'Chakra Petch', sans-serif">2027</text>
+        <text x="920" y="360" fill="rgba(242,245,247,0.05)" font-size="72" font-weight="700" font-family="'Chakra Petch', sans-serif">2028</text>
+
+        <!-- Baseline -->
+        <line x1="60" y1="240" x2="1140" y2="240" stroke="rgba(199,206,213,0.45)" stroke-width="1"/>
+
+        <!-- Year-boundary ticks -->
+        <line x1="364" y1="232" x2="364" y2="248" stroke="rgba(242,245,247,0.20)" stroke-width="1"/>
+        <text x="364" y="224" fill="#9AA6B2" font-size="8" font-family="'JetBrains Mono', monospace" text-anchor="middle" letter-spacing="0.14em">JAN '27</text>
+
+        <line x1="768" y1="232" x2="768" y2="248" stroke="rgba(242,245,247,0.20)" stroke-width="1"/>
+        <text x="768" y="224" fill="#9AA6B2" font-size="8" font-family="'JetBrains Mono', monospace" text-anchor="middle" letter-spacing="0.14em">JAN '28</text>
+
+        <!-- Start / end caps -->
+        <line x1="60" y1="232" x2="60" y2="248" stroke="rgba(242,245,247,0.20)" stroke-width="1"/>
+        <line x1="1140" y1="232" x2="1140" y2="248" stroke="rgba(242,245,247,0.20)" stroke-width="1"/>
+
+        <!-- ============================================================
+             EVENT 1 · APR 2026 · You are here  (focal, below)
+             ============================================================ -->
+        <line x1="60" y1="240" x2="60" y2="300" stroke="#1FBFD6" stroke-width="1"/>
+        <circle cx="60" cy="240" r="6" fill="#1FBFD6"/>
+        <circle cx="60" cy="240" r="12" fill="none" stroke="rgba(31,191,214,0.35)" stroke-width="1"/>
+        <text x="60" y="316" fill="#1FBFD6" font-size="8" font-family="'JetBrains Mono', monospace" text-anchor="middle" letter-spacing="0.14em">APR 2026 · TODAY</text>
+        <text x="60" y="336" fill="#F2F5F7" font-size="14" font-weight="600" font-family="'Space Grotesk', sans-serif" text-anchor="middle">You are here</text>
+
+        <!-- ============================================================
+             EVENT 2 · SEP 2026 · Milestone 01  (above)
+             ============================================================ -->
+        <line x1="240" y1="184" x2="240" y2="240" stroke="rgba(242,245,247,0.30)" stroke-width="1"/>
+        <circle cx="240" cy="240" r="4" fill="#F2F5F7"/>
+        <text x="240" y="156" fill="#C7CED5" font-size="8" font-family="'JetBrains Mono', monospace" text-anchor="middle" letter-spacing="0.14em">SEP 2026</text>
+        <text x="240" y="172" fill="#F2F5F7" font-size="12" font-weight="600" font-family="'Space Grotesk', sans-serif" text-anchor="middle">Milestone 01</text>
+
+        <!-- ============================================================
+             EVENT 3 · MAR 2027 · Milestone 02  (below)
+             ============================================================ -->
+        <line x1="420" y1="240" x2="420" y2="296" stroke="rgba(242,245,247,0.30)" stroke-width="1"/>
+        <circle cx="420" cy="240" r="4" fill="#F2F5F7"/>
+        <text x="420" y="312" fill="#C7CED5" font-size="8" font-family="'JetBrains Mono', monospace" text-anchor="middle" letter-spacing="0.14em">MAR 2027</text>
+        <text x="420" y="328" fill="#F2F5F7" font-size="12" font-weight="600" font-family="'Space Grotesk', sans-serif" text-anchor="middle">Milestone 02</text>
+
+        <!-- ============================================================
+             EVENT 4 · AUG 2027 · Milestone 03  (above)
+             ============================================================ -->
+        <line x1="600" y1="184" x2="600" y2="240" stroke="rgba(242,245,247,0.30)" stroke-width="1"/>
+        <circle cx="600" cy="240" r="4" fill="#F2F5F7"/>
+        <text x="600" y="156" fill="#C7CED5" font-size="8" font-family="'JetBrains Mono', monospace" text-anchor="middle" letter-spacing="0.14em">AUG 2027</text>
+        <text x="600" y="172" fill="#F2F5F7" font-size="12" font-weight="600" font-family="'Space Grotesk', sans-serif" text-anchor="middle">Milestone 03</text>
+
+        <!-- ============================================================
+             EVENT 5 · FEB 2028 · Milestone 04  (below)
+             ============================================================ -->
+        <line x1="780" y1="240" x2="780" y2="296" stroke="rgba(242,245,247,0.30)" stroke-width="1"/>
+        <circle cx="780" cy="240" r="4" fill="#F2F5F7"/>
+        <text x="780" y="312" fill="#C7CED5" font-size="8" font-family="'JetBrains Mono', monospace" text-anchor="middle" letter-spacing="0.14em">FEB 2028</text>
+        <text x="780" y="328" fill="#F2F5F7" font-size="12" font-weight="600" font-family="'Space Grotesk', sans-serif" text-anchor="middle">Milestone 04</text>
+
+        <!-- ============================================================
+             EVENT 6 · JUL 2028 · Milestone 05  (above)
+             ============================================================ -->
+        <line x1="960" y1="184" x2="960" y2="240" stroke="rgba(242,245,247,0.30)" stroke-width="1"/>
+        <circle cx="960" cy="240" r="4" fill="#F2F5F7"/>
+        <text x="960" y="156" fill="#C7CED5" font-size="8" font-family="'JetBrains Mono', monospace" text-anchor="middle" letter-spacing="0.14em">JUL 2028</text>
+        <text x="960" y="172" fill="#F2F5F7" font-size="12" font-weight="600" font-family="'Space Grotesk', sans-serif" text-anchor="middle">Milestone 05</text>
+
+        <!-- ============================================================
+             EVENT 7 · DEC 2028 · End of Line  (focal, below)
+             ============================================================ -->
+        <line x1="1140" y1="240" x2="1140" y2="300" stroke="#1FBFD6" stroke-width="1"/>
+        <circle cx="1140" cy="240" r="6" fill="#1FBFD6"/>
+        <circle cx="1140" cy="240" r="12" fill="none" stroke="rgba(31,191,214,0.35)" stroke-width="1"/>
+        <text x="1140" y="316" fill="#1FBFD6" font-size="8" font-family="'JetBrains Mono', monospace" text-anchor="middle" letter-spacing="0.14em">DEC 2028</text>
+        <text x="1140" y="336" fill="#F2F5F7" font-size="14" font-weight="600" font-family="'Space Grotesk', sans-serif" text-anchor="middle">End of Line</text>
+
+        <!-- Legend -->
+        <line x1="40" y1="408" x2="1160" y2="408" stroke="rgba(242,245,247,0.10)" stroke-width="0.8"/>
+        <text x="40" y="424" fill="#C7CED5" font-size="8" font-family="'JetBrains Mono', monospace" letter-spacing="0.18em">LEGEND</text>
+
+        <circle cx="52" cy="440" r="4" fill="#F2F5F7"/>
+        <text x="68" y="444" fill="#C7CED5" font-size="8.5" font-family="'Space Grotesk', sans-serif">Milestone · placeholder</text>
+
+        <circle cx="220" cy="440" r="6" fill="#1FBFD6"/>
+        <text x="236" y="444" fill="#C7CED5" font-size="8.5" font-family="'Space Grotesk', sans-serif">Anchor point</text>
+
+        <text x="360" y="444" fill="#C7CED5" font-size="8.5" font-family="'Space Grotesk', sans-serif" font-style="italic">Intervals are ~5.3 months — even in space because even in time.</text>
+      </svg>
+  </div>
+</body>
+</html>
